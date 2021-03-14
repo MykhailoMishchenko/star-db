@@ -8,7 +8,7 @@ export default class PersonDetails extends Component {
         return (
             <div className="person-details card">
                 <img className="person-image"
-                src="https://starwars-visualguide.com/assets/img/characters/3.jpg" />
+                src="https://starwars-visualguide.com/assets/img/characters/3.jpg" alt='img' />
                 <div className="card-body">
                     <h4>R2-D2</h4>
                     <ul className="list-group list-group-flush">
@@ -23,7 +23,7 @@ export default class PersonDetails extends Component {
                         <li className="list-group-item">
                             <span className="term">Eye Color</span>
                             <span>red</span>
-                            </li>
+                        </li>
                     </ul>
                 </div>
             </div>
