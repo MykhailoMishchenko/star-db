@@ -3,3 +3,9 @@
     margin: auto;
     margin-top: 25px;
 }
+
+.spinner-center {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
